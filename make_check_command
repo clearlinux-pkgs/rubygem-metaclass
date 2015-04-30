@@ -1,0 +1,1 @@
+pushd %{buildroot}%{gem_dir}/gems/metaclass-0.0.4 && sed -i '/require "bundler\/setup"/ d' test/test_helper.rb && ruby -Ilib:test -e 'Dir.glob "./test/**/*_test.rb", &method(:require)' && popd
