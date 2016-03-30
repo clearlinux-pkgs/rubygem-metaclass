@@ -4,7 +4,7 @@
 #
 Name     : rubygem-metaclass
 Version  : 0.0.4
-Release  : 5
+Release  : 6
 URL      : https://rubygems.org/downloads/metaclass-0.0.4.gem
 Source0  : https://rubygems.org/downloads/metaclass-0.0.4.gem
 Summary  : No detailed summary available
@@ -57,21 +57,16 @@ pushd %{buildroot}%{gem_dir}/gems/metaclass-0.0.4 && sed -i '/require "bundler\/
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/metaclass-0.0.4.gem
-/usr/lib64/ruby/gems/2.2.0/doc/metaclass-0.0.4/ri/Metaclass/ObjectMethods/__metaclass__-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/metaclass-0.0.4/ri/Metaclass/ObjectMethods/cdesc-ObjectMethods.ri
-/usr/lib64/ruby/gems/2.2.0/doc/metaclass-0.0.4/ri/Metaclass/cdesc-Metaclass.ri
-/usr/lib64/ruby/gems/2.2.0/doc/metaclass-0.0.4/ri/Object/cdesc-Object.ri
-/usr/lib64/ruby/gems/2.2.0/doc/metaclass-0.0.4/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/.gitignore
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/COPYING.txt
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/Gemfile
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/README.md
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/lib/metaclass.rb
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/lib/metaclass/object_methods.rb
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/lib/metaclass/version.rb
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/metaclass.gemspec
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/test/object_methods_test.rb
-/usr/lib64/ruby/gems/2.2.0/gems/metaclass-0.0.4/test/test_helper.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/metaclass-0.0.4.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/metaclass-0.0.4.gem
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/.gitignore
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/COPYING.txt
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/Gemfile
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/README.md
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/lib/metaclass.rb
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/lib/metaclass/object_methods.rb
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/lib/metaclass/version.rb
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/metaclass.gemspec
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/test/object_methods_test.rb
+/usr/lib64/ruby/gems/2.3.0/gems/metaclass-0.0.4/test/test_helper.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/metaclass-0.0.4.gemspec
